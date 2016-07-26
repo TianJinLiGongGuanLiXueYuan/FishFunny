@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04617A5F1D46FE520061E526 /* WaterQualitySet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A5E1D46FE520061E526 /* WaterQualitySet.m */; };
+		04617A621D46FE5C0061E526 /* FTwaterQualityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A611D46FE5C0061E526 /* FTwaterQualityViewController.m */; };
+		04617A671D46FE8A0061E526 /* FTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A641D46FE8A0061E526 /* FTBaseViewController.m */; };
+		04617A681D46FE8A0061E526 /* FTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A661D46FE8A0061E526 /* FTMainViewController.m */; };
+		04617A6D1D4703030061E526 /* FTAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A6A1D4703030061E526 /* FTAboutUsViewController.m */; };
+		04617A6E1D4703030061E526 /* FTUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A6C1D4703030061E526 /* FTUserViewController.m */; };
+		04617A741D4703460061E526 /* LimitInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A711D4703460061E526 /* LimitInput.m */; };
+		04617A751D4703460061E526 /* FTUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A731D4703460061E526 /* FTUserInfoViewController.m */; };
+		04617A7D1D4704590061E526 /* FTMyFishBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A781D4704590061E526 /* FTMyFishBallViewController.m */; };
+		04617A7E1D4704590061E526 /* FTScanLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A7A1D4704590061E526 /* FTScanLoginViewController.m */; };
+		04617A7F1D4704590061E526 /* FTFishTankCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A7C1D4704590061E526 /* FTFishTankCalendarViewController.m */; };
+		04617A821D4704650061E526 /* FTFishInfoCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A811D4704650061E526 /* FTFishInfoCalendarViewController.m */; };
+		04617A8A1D47048A0061E526 /* FTCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A851D47048A0061E526 /* FTCalendar.m */; };
+		04617A8B1D47048A0061E526 /* FTCalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A871D47048A0061E526 /* FTCalendarItem.m */; };
+		04617A8C1D47048A0061E526 /* FTChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A891D47048A0061E526 /* FTChart.m */; };
+		04617A961D47096F0061E526 /* ChineseSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A8F1D47096F0061E526 /* ChineseSorting.m */; };
+		04617A971D47096F0061E526 /* FTSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A911D47096F0061E526 /* FTSearchViewController.m */; };
+		04617A981D47096F0061E526 /* FTFishDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04617A931D47096F0061E526 /* FTFishDataViewController.m */; };
+		04617A991D47096F0061E526 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 04617A951D47096F0061E526 /* pinyin.c */; };
+		6A18D9691D35E5B9007DDA31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A18D9681D35E5B9007DDA31 /* main.m */; };
+		6A18D96C1D35E5B9007DDA31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A18D96B1D35E5B9007DDA31 /* AppDelegate.m */; };
+		6A18D9721D35E5B9007DDA31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A18D9701D35E5B9007DDA31 /* Main.storyboard */; };
+		6A18D9771D35E5B9007DDA31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A18D9751D35E5B9007DDA31 /* LaunchScreen.storyboard */; };
+		6A18D9821D35E5B9007DDA31 /* FishTankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A18D9811D35E5B9007DDA31 /* FishTankTests.m */; };
+		6A18D98D1D35E5B9007DDA31 /* FishTankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A18D98C1D35E5B9007DDA31 /* FishTankUITests.m */; };
+		6ADADBE31D372404001B25FC /* FTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADADBE21D372404001B25FC /* FTFirstViewController.m */; };
+		F30672601D37854C00A76924 /* FTRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F306725F1D37854C00A76924 /* FTRegisterViewController.m */; };
+		F30672621D37AB6A00A76924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30672611D37AB6A00A76924 /* Assets.xcassets */; };
+		F30A3E211D40FB010050B51E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3E151D40FB010050B51E /* AFHTTPSessionManager.m */; };
+		F30A3E221D40FB010050B51E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3E181D40FB010050B51E /* AFNetworkReachabilityManager.m */; };
+		F30A3E231D40FB010050B51E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3E1A1D40FB010050B51E /* AFSecurityPolicy.m */; };
+		F30A3E241D40FB010050B51E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3E1C1D40FB010050B51E /* AFURLRequestSerialization.m */; };
+		F30A3E251D40FB010050B51E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3E1E1D40FB010050B51E /* AFURLResponseSerialization.m */; };
+		F30A3E261D40FB010050B51E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3E201D40FB010050B51E /* AFURLSessionManager.m */; };
+		F32D0E531D38D0470020E35A /* FTFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32D0E521D38D0470020E35A /* FTFindPasswordViewController.m */; };
+		F3A648771D3CB8EA00F20707 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A648761D3CB8EA00F20707 /* AVFoundation.framework */; };
+		F3A6487B1D3CBA0C00F20707 /* FTQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A6487A1D3CBA0C00F20707 /* FTQRCodeViewController.m */; };
+		F3C778881D3E222F00877D37 /* UITextField+Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C778871D3E222F00877D37 /* UITextField+Validator.m */; };
+		F3C7788B1D3E225100877D37 /* AFViewShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C7788A1D3E225100877D37 /* AFViewShaker.m */; };
+		F3FA54F01D3A2AB50081315C /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54EE1D3A2AB50081315C /* MOBFoundation.framework */; };
+		F3FA54F11D3A2AB50081315C /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54EF1D3A2AB50081315C /* SMS_SDK.framework */; };
+		F3FA54F31D3A2B350081315C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54F21D3A2B350081315C /* MessageUI.framework */; };
+		F3FA54F51D3A2B4F0081315C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54F41D3A2B4F0081315C /* JavaScriptCore.framework */; };
+		F3FA54F71D3A2B920081315C /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54F61D3A2B920081315C /* libstdc++.tbd */; };
+		F3FA54F91D3A2BA40081315C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54F81D3A2BA40081315C /* libz.tbd */; };
+		F3FA54FB1D3A2BB30081315C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54FA1D3A2BB30081315C /* libicucore.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A18D97E1D35E5B9007DDA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A18D95C1D35E5B9007DDA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A18D9631D35E5B9007DDA31;
+			remoteInfo = FishTank;
+		};
+		6A18D9891D35E5B9007DDA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A18D95C1D35E5B9007DDA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A18D9631D35E5B9007DDA31;
+			remoteInfo = FishTank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04617A5D1D46FE520061E526 /* WaterQualitySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterQualitySet.h; sourceTree = "<group>"; };
+		04617A5E1D46FE520061E526 /* WaterQualitySet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterQualitySet.m; sourceTree = "<group>"; };
+		04617A601D46FE5C0061E526 /* FTwaterQualityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTwaterQualityViewController.h; sourceTree = "<group>"; };
+		04617A611D46FE5C0061E526 /* FTwaterQualityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTwaterQualityViewController.m; sourceTree = "<group>"; };
+		04617A631D46FE8A0061E526 /* FTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBaseViewController.h; sourceTree = "<group>"; };
+		04617A641D46FE8A0061E526 /* FTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBaseViewController.m; sourceTree = "<group>"; };
+		04617A651D46FE8A0061E526 /* FTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMainViewController.h; sourceTree = "<group>"; };
+		04617A661D46FE8A0061E526 /* FTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMainViewController.m; sourceTree = "<group>"; };
+		04617A691D4703030061E526 /* FTAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAboutUsViewController.h; sourceTree = "<group>"; };
+		04617A6A1D4703030061E526 /* FTAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAboutUsViewController.m; sourceTree = "<group>"; };
+		04617A6B1D4703030061E526 /* FTUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUserViewController.h; sourceTree = "<group>"; };
+		04617A6C1D4703030061E526 /* FTUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTUserViewController.m; sourceTree = "<group>"; };
+		04617A701D4703460061E526 /* LimitInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitInput.h; sourceTree = "<group>"; };
+		04617A711D4703460061E526 /* LimitInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitInput.m; sourceTree = "<group>"; };
+		04617A721D4703460061E526 /* FTUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUserInfoViewController.h; sourceTree = "<group>"; };
+		04617A731D4703460061E526 /* FTUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTUserInfoViewController.m; sourceTree = "<group>"; };
+		04617A771D4704590061E526 /* FTMyFishBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMyFishBallViewController.h; sourceTree = "<group>"; };
+		04617A781D4704590061E526 /* FTMyFishBallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMyFishBallViewController.m; sourceTree = "<group>"; };
+		04617A791D4704590061E526 /* FTScanLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTScanLoginViewController.h; sourceTree = "<group>"; };
+		04617A7A1D4704590061E526 /* FTScanLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTScanLoginViewController.m; sourceTree = "<group>"; };
+		04617A7B1D4704590061E526 /* FTFishTankCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFishTankCalendarViewController.h; sourceTree = "<group>"; };
+		04617A7C1D4704590061E526 /* FTFishTankCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFishTankCalendarViewController.m; sourceTree = "<group>"; };
+		04617A801D4704650061E526 /* FTFishInfoCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFishInfoCalendarViewController.h; sourceTree = "<group>"; };
+		04617A811D4704650061E526 /* FTFishInfoCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFishInfoCalendarViewController.m; sourceTree = "<group>"; };
+		04617A841D47048A0061E526 /* FTCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCalendar.h; sourceTree = "<group>"; };
+		04617A851D47048A0061E526 /* FTCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCalendar.m; sourceTree = "<group>"; };
+		04617A861D47048A0061E526 /* FTCalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCalendarItem.h; sourceTree = "<group>"; };
+		04617A871D47048A0061E526 /* FTCalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCalendarItem.m; sourceTree = "<group>"; };
+		04617A881D47048A0061E526 /* FTChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTChart.h; sourceTree = "<group>"; };
+		04617A891D47048A0061E526 /* FTChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTChart.m; sourceTree = "<group>"; };
+		04617A8E1D47096F0061E526 /* ChineseSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseSorting.h; sourceTree = "<group>"; };
+		04617A8F1D47096F0061E526 /* ChineseSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseSorting.m; sourceTree = "<group>"; };
+		04617A901D47096F0061E526 /* FTSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSearchViewController.h; sourceTree = "<group>"; };
+		04617A911D47096F0061E526 /* FTSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSearchViewController.m; sourceTree = "<group>"; };
+		04617A921D47096F0061E526 /* FTFishDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFishDataViewController.h; sourceTree = "<group>"; };
+		04617A931D47096F0061E526 /* FTFishDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFishDataViewController.m; sourceTree = "<group>"; };
+		04617A941D47096F0061E526 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		04617A951D47096F0061E526 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		6A18D9641D35E5B9007DDA31 /* FishTank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishTank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A18D9681D35E5B9007DDA31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A18D96A1D35E5B9007DDA31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A18D96B1D35E5B9007DDA31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A18D9711D35E5B9007DDA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A18D9761D35E5B9007DDA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A18D9781D35E5B9007DDA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A18D97D1D35E5B9007DDA31 /* FishTankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishTankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A18D9811D35E5B9007DDA31 /* FishTankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishTankTests.m; sourceTree = "<group>"; };
+		6A18D9831D35E5B9007DDA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A18D9881D35E5B9007DDA31 /* FishTankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishTankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A18D98C1D35E5B9007DDA31 /* FishTankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishTankUITests.m; sourceTree = "<group>"; };
+		6A18D98E1D35E5B9007DDA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADADBE11D372404001B25FC /* FTFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFirstViewController.h; sourceTree = "<group>"; };
+		6ADADBE21D372404001B25FC /* FTFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFirstViewController.m; sourceTree = "<group>"; };
+		F306725E1D37854C00A76924 /* FTRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRegisterViewController.h; sourceTree = "<group>"; };
+		F306725F1D37854C00A76924 /* FTRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRegisterViewController.m; sourceTree = "<group>"; };
+		F30672611D37AB6A00A76924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30A3E141D40FB010050B51E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F30A3E151D40FB010050B51E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		F30A3E161D40FB010050B51E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		F30A3E171D40FB010050B51E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		F30A3E181D40FB010050B51E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		F30A3E191D40FB010050B51E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		F30A3E1A1D40FB010050B51E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		F30A3E1B1D40FB010050B51E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		F30A3E1C1D40FB010050B51E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		F30A3E1D1D40FB010050B51E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		F30A3E1E1D40FB010050B51E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		F30A3E1F1D40FB010050B51E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		F30A3E201D40FB010050B51E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		F32D0E511D38D0470020E35A /* FTFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFindPasswordViewController.h; sourceTree = "<group>"; };
+		F32D0E521D38D0470020E35A /* FTFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFindPasswordViewController.m; sourceTree = "<group>"; };
+		F3A648761D3CB8EA00F20707 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F3A648791D3CBA0C00F20707 /* FTQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTQRCodeViewController.h; sourceTree = "<group>"; };
+		F3A6487A1D3CBA0C00F20707 /* FTQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTQRCodeViewController.m; sourceTree = "<group>"; };
+		F3C778861D3E222F00877D37 /* UITextField+Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Validator.h"; sourceTree = "<group>"; };
+		F3C778871D3E222F00877D37 /* UITextField+Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Validator.m"; sourceTree = "<group>"; };
+		F3C778891D3E225100877D37 /* AFViewShaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewShaker.h; sourceTree = "<group>"; };
+		F3C7788A1D3E225100877D37 /* AFViewShaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewShaker.m; sourceTree = "<group>"; };
+		F3CF589E1D41F02400CD38B0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F3FA54EE1D3A2AB50081315C /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		F3FA54EF1D3A2AB50081315C /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		F3FA54F21D3A2B350081315C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F3FA54F41D3A2B4F0081315C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F3FA54F61D3A2B920081315C /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F3FA54F81D3A2BA40081315C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F3FA54FA1D3A2BB30081315C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A18D9611D35E5B9007DDA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A648771D3CB8EA00F20707 /* AVFoundation.framework in Frameworks */,
+				F3FA54FB1D3A2BB30081315C /* libicucore.tbd in Frameworks */,
+				F3FA54F91D3A2BA40081315C /* libz.tbd in Frameworks */,
+				F3FA54F71D3A2B920081315C /* libstdc++.tbd in Frameworks */,
+				F3FA54F51D3A2B4F0081315C /* JavaScriptCore.framework in Frameworks */,
+				F3FA54F31D3A2B350081315C /* MessageUI.framework in Frameworks */,
+				F3FA54F01D3A2AB50081315C /* MOBFoundation.framework in Frameworks */,
+				F3FA54F11D3A2AB50081315C /* SMS_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A18D97A1D35E5B9007DDA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A18D9851D35E5B9007DDA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04617A6F1D47031F0061E526 /* userInfo */ = {
+			isa = PBXGroup;
+			children = (
+				04617A701D4703460061E526 /* LimitInput.h */,
+				04617A711D4703460061E526 /* LimitInput.m */,
+				04617A721D4703460061E526 /* FTUserInfoViewController.h */,
+				04617A731D4703460061E526 /* FTUserInfoViewController.m */,
+			);
+			name = userInfo;
+			sourceTree = "<group>";
+		};
+		04617A761D4704440061E526 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				04617A771D4704590061E526 /* FTMyFishBallViewController.h */,
+				04617A781D4704590061E526 /* FTMyFishBallViewController.m */,
+				04617A791D4704590061E526 /* FTScanLoginViewController.h */,
+				04617A7A1D4704590061E526 /* FTScanLoginViewController.m */,
+				04617A7B1D4704590061E526 /* FTFishTankCalendarViewController.h */,
+				04617A7C1D4704590061E526 /* FTFishTankCalendarViewController.m */,
+				04617A801D4704650061E526 /* FTFishInfoCalendarViewController.h */,
+				04617A811D4704650061E526 /* FTFishInfoCalendarViewController.m */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		04617A831D4704710061E526 /* FTfishTankCanlendar */ = {
+			isa = PBXGroup;
+			children = (
+				04617A841D47048A0061E526 /* FTCalendar.h */,
+				04617A851D47048A0061E526 /* FTCalendar.m */,
+				04617A861D47048A0061E526 /* FTCalendarItem.h */,
+				04617A871D47048A0061E526 /* FTCalendarItem.m */,
+				04617A881D47048A0061E526 /* FTChart.h */,
+				04617A891D47048A0061E526 /* FTChart.m */,
+			);
+			name = FTfishTankCanlendar;
+			sourceTree = "<group>";
+		};
+		04617A8D1D4709450061E526 /* SearchFish */ = {
+			isa = PBXGroup;
+			children = (
+				04617A8E1D47096F0061E526 /* ChineseSorting.h */,
+				04617A8F1D47096F0061E526 /* ChineseSorting.m */,
+				04617A901D47096F0061E526 /* FTSearchViewController.h */,
+				04617A911D47096F0061E526 /* FTSearchViewController.m */,
+				04617A921D47096F0061E526 /* FTFishDataViewController.h */,
+				04617A931D47096F0061E526 /* FTFishDataViewController.m */,
+				04617A941D47096F0061E526 /* pinyin.h */,
+				04617A951D47096F0061E526 /* pinyin.c */,
+			);
+			name = SearchFish;
+			sourceTree = "<group>";
+		};
+		6A18D95B1D35E5B9007DDA31 = {
+			isa = PBXGroup;
+			children = (
+				F3FA54FA1D3A2BB30081315C /* libicucore.tbd */,
+				F3FA54F81D3A2BA40081315C /* libz.tbd */,
+				F3FA54F61D3A2B920081315C /* libstdc++.tbd */,
+				F3A648761D3CB8EA00F20707 /* AVFoundation.framework */,
+				F3FA54F41D3A2B4F0081315C /* JavaScriptCore.framework */,
+				F3FA54F21D3A2B350081315C /* MessageUI.framework */,
+				F30A3E131D40FB010050B51E /* AFNetworking */,
+				F3FA54ED1D3A2AB50081315C /* SMS_SDK */,
+				6A18D9661D35E5B9007DDA31 /* FishTank */,
+				6A18D9801D35E5B9007DDA31 /* FishTankTests */,
+				6A18D98B1D35E5B9007DDA31 /* FishTankUITests */,
+				6A18D9651D35E5B9007DDA31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A18D9651D35E5B9007DDA31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A18D9641D35E5B9007DDA31 /* FishTank.app */,
+				6A18D97D1D35E5B9007DDA31 /* FishTankTests.xctest */,
+				6A18D9881D35E5B9007DDA31 /* FishTankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A18D9661D35E5B9007DDA31 /* FishTank */ = {
+			isa = PBXGroup;
+			children = (
+				F3CF589E1D41F02400CD38B0 /* PrefixHeader.pch */,
+				F306724E1D3783D900A76924 /* FindPassword */,
+				F306724D1D3783D500A76924 /* Register */,
+				6ADADBDD1D3721AE001B25FC /* Login */,
+				6A18D99A1D35E5DA007DDA31 /* Main */,
+				6A18D9A51D35EC8D007DDA31 /* User */,
+				04617A6F1D47031F0061E526 /* userInfo */,
+				6A18D99B1D35E638007DDA31 /* Other */,
+				6A18D9671D35E5B9007DDA31 /* Supporting Files */,
+			);
+			path = FishTank;
+			sourceTree = "<group>";
+		};
+		6A18D9671D35E5B9007DDA31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A18D9681D35E5B9007DDA31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A18D9801D35E5B9007DDA31 /* FishTankTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A18D9811D35E5B9007DDA31 /* FishTankTests.m */,
+				6A18D9831D35E5B9007DDA31 /* Info.plist */,
+			);
+			path = FishTankTests;
+			sourceTree = "<group>";
+		};
+		6A18D98B1D35E5B9007DDA31 /* FishTankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A18D98C1D35E5B9007DDA31 /* FishTankUITests.m */,
+				6A18D98E1D35E5B9007DDA31 /* Info.plist */,
+			);
+			path = FishTankUITests;
+			sourceTree = "<group>";
+		};
+		6A18D99A1D35E5DA007DDA31 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6A18D99C1D35E65C007DDA31 /* Model */,
+				6A18D99D1D35E66C007DDA31 /* View */,
+				6A18D99E1D35E673007DDA31 /* Controller */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		6A18D99B1D35E638007DDA31 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6A18D96A1D35E5B9007DDA31 /* AppDelegate.h */,
+				6A18D96B1D35E5B9007DDA31 /* AppDelegate.m */,
+				F30672611D37AB6A00A76924 /* Assets.xcassets */,
+				6A18D9701D35E5B9007DDA31 /* Main.storyboard */,
+				6A18D9751D35E5B9007DDA31 /* LaunchScreen.storyboard */,
+				6A18D9781D35E5B9007DDA31 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		6A18D99C1D35E65C007DDA31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04617A5D1D46FE520061E526 /* WaterQualitySet.h */,
+				04617A5E1D46FE520061E526 /* WaterQualitySet.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6A18D99D1D35E66C007DDA31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04617A601D46FE5C0061E526 /* FTwaterQualityViewController.h */,
+				04617A611D46FE5C0061E526 /* FTwaterQualityViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6A18D99E1D35E673007DDA31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04617A631D46FE8A0061E526 /* FTBaseViewController.h */,
+				04617A641D46FE8A0061E526 /* FTBaseViewController.m */,
+				04617A651D46FE8A0061E526 /* FTMainViewController.h */,
+				04617A661D46FE8A0061E526 /* FTMainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6A18D9A51D35EC8D007DDA31 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				04617A8D1D4709450061E526 /* SearchFish */,
+				04617A831D4704710061E526 /* FTfishTankCanlendar */,
+				04617A761D4704440061E526 /* image */,
+				04617A691D4703030061E526 /* FTAboutUsViewController.h */,
+				04617A6A1D4703030061E526 /* FTAboutUsViewController.m */,
+				04617A6B1D4703030061E526 /* FTUserViewController.h */,
+				04617A6C1D4703030061E526 /* FTUserViewController.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		6ADADBDD1D3721AE001B25FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F30672571D37842A00A76924 /* Model */,
+				F30672561D37842700A76924 /* View */,
+				F30672551D37842500A76924 /* Controller */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		F306724D1D3783D500A76924 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F306725A1D37847000A76924 /* Model */,
+				F30672591D37846D00A76924 /* View */,
+				F30672581D37846B00A76924 /* Controller */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		F306724E1D3783D900A76924 /* FindPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F306725D1D37848C00A76924 /* Model */,
+				F306725C1D37848900A76924 /* View */,
+				F306725B1D37848600A76924 /* Controller */,
+			);
+			name = FindPassword;
+			sourceTree = "<group>";
+		};
+		F30672551D37842500A76924 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6ADADBE11D372404001B25FC /* FTFirstViewController.h */,
+				6ADADBE21D372404001B25FC /* FTFirstViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F30672561D37842700A76924 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F30672571D37842A00A76924 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3C778891D3E225100877D37 /* AFViewShaker.h */,
+				F3C7788A1D3E225100877D37 /* AFViewShaker.m */,
+				F3C778861D3E222F00877D37 /* UITextField+Validator.h */,
+				F3C778871D3E222F00877D37 /* UITextField+Validator.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F30672581D37846B00A76924 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F306725E1D37854C00A76924 /* FTRegisterViewController.h */,
+				F306725F1D37854C00A76924 /* FTRegisterViewController.m */,
+				F3A648791D3CBA0C00F20707 /* FTQRCodeViewController.h */,
+				F3A6487A1D3CBA0C00F20707 /* FTQRCodeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F30672591D37846D00A76924 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F306725A1D37847000A76924 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F306725B1D37848600A76924 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F32D0E511D38D0470020E35A /* FTFindPasswordViewController.h */,
+				F32D0E521D38D0470020E35A /* FTFindPasswordViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F306725C1D37848900A76924 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F306725D1D37848C00A76924 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F30A3E131D40FB010050B51E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F30A3E141D40FB010050B51E /* AFHTTPSessionManager.h */,
+				F30A3E151D40FB010050B51E /* AFHTTPSessionManager.m */,
+				F30A3E161D40FB010050B51E /* AFNetworking.h */,
+				F30A3E171D40FB010050B51E /* AFNetworkReachabilityManager.h */,
+				F30A3E181D40FB010050B51E /* AFNetworkReachabilityManager.m */,
+				F30A3E191D40FB010050B51E /* AFSecurityPolicy.h */,
+				F30A3E1A1D40FB010050B51E /* AFSecurityPolicy.m */,
+				F30A3E1B1D40FB010050B51E /* AFURLRequestSerialization.h */,
+				F30A3E1C1D40FB010050B51E /* AFURLRequestSerialization.m */,
+				F30A3E1D1D40FB010050B51E /* AFURLResponseSerialization.h */,
+				F30A3E1E1D40FB010050B51E /* AFURLResponseSerialization.m */,
+				F30A3E1F1D40FB010050B51E /* AFURLSessionManager.h */,
+				F30A3E201D40FB010050B51E /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F3FA54ED1D3A2AB50081315C /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA54EE1D3A2AB50081315C /* MOBFoundation.framework */,
+				F3FA54EF1D3A2AB50081315C /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A18D9631D35E5B9007DDA31 /* FishTank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A18D9911D35E5B9007DDA31 /* Build configuration list for PBXNativeTarget "FishTank" */;
+			buildPhases = (
+				6A18D9601D35E5B9007DDA31 /* Sources */,
+				6A18D9611D35E5B9007DDA31 /* Frameworks */,
+				6A18D9621D35E5B9007DDA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishTank;
+			productName = FishTank;
+			productReference = 6A18D9641D35E5B9007DDA31 /* FishTank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A18D97C1D35E5B9007DDA31 /* FishTankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A18D9941D35E5B9007DDA31 /* Build configuration list for PBXNativeTarget "FishTankTests" */;
+			buildPhases = (
+				6A18D9791D35E5B9007DDA31 /* Sources */,
+				6A18D97A1D35E5B9007DDA31 /* Frameworks */,
+				6A18D97B1D35E5B9007DDA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A18D97F1D35E5B9007DDA31 /* PBXTargetDependency */,
+			);
+			name = FishTankTests;
+			productName = FishTankTests;
+			productReference = 6A18D97D1D35E5B9007DDA31 /* FishTankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A18D9871D35E5B9007DDA31 /* FishTankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A18D9971D35E5B9007DDA31 /* Build configuration list for PBXNativeTarget "FishTankUITests" */;
+			buildPhases = (
+				6A18D9841D35E5B9007DDA31 /* Sources */,
+				6A18D9851D35E5B9007DDA31 /* Frameworks */,
+				6A18D9861D35E5B9007DDA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A18D98A1D35E5B9007DDA31 /* PBXTargetDependency */,
+			);
+			name = FishTankUITests;
+			productName = FishTankUITests;
+			productReference = 6A18D9881D35E5B9007DDA31 /* FishTankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A18D95C1D35E5B9007DDA31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FT;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = pikaqiu;
+				TargetAttributes = {
+					6A18D9631D35E5B9007DDA31 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6A18D97C1D35E5B9007DDA31 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6A18D9631D35E5B9007DDA31;
+					};
+					6A18D9871D35E5B9007DDA31 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6A18D9631D35E5B9007DDA31;
+					};
+				};
+			};
+			buildConfigurationList = 6A18D95F1D35E5B9007DDA31 /* Build configuration list for PBXProject "FishTank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A18D95B1D35E5B9007DDA31;
+			productRefGroup = 6A18D9651D35E5B9007DDA31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A18D9631D35E5B9007DDA31 /* FishTank */,
+				6A18D97C1D35E5B9007DDA31 /* FishTankTests */,
+				6A18D9871D35E5B9007DDA31 /* FishTankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A18D9621D35E5B9007DDA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A18D9771D35E5B9007DDA31 /* LaunchScreen.storyboard in Resources */,
+				F30672621D37AB6A00A76924 /* Assets.xcassets in Resources */,
+				6A18D9721D35E5B9007DDA31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A18D97B1D35E5B9007DDA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A18D9861D35E5B9007DDA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A18D9601D35E5B9007DDA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30A3E261D40FB010050B51E /* AFURLSessionManager.m in Sources */,
+				F30A3E231D40FB010050B51E /* AFSecurityPolicy.m in Sources */,
+				04617A8B1D47048A0061E526 /* FTCalendarItem.m in Sources */,
+				F3C778881D3E222F00877D37 /* UITextField+Validator.m in Sources */,
+				04617A6D1D4703030061E526 /* FTAboutUsViewController.m in Sources */,
+				04617A821D4704650061E526 /* FTFishInfoCalendarViewController.m in Sources */,
+				F30A3E221D40FB010050B51E /* AFNetworkReachabilityManager.m in Sources */,
+				04617A7E1D4704590061E526 /* FTScanLoginViewController.m in Sources */,
+				6A18D96C1D35E5B9007DDA31 /* AppDelegate.m in Sources */,
+				04617A7D1D4704590061E526 /* FTMyFishBallViewController.m in Sources */,
+				04617A621D46FE5C0061E526 /* FTwaterQualityViewController.m in Sources */,
+				F3C7788B1D3E225100877D37 /* AFViewShaker.m in Sources */,
+				04617A991D47096F0061E526 /* pinyin.c in Sources */,
+				04617A8A1D47048A0061E526 /* FTCalendar.m in Sources */,
+				F30A3E211D40FB010050B51E /* AFHTTPSessionManager.m in Sources */,
+				04617A751D4703460061E526 /* FTUserInfoViewController.m in Sources */,
+				04617A8C1D47048A0061E526 /* FTChart.m in Sources */,
+				04617A7F1D4704590061E526 /* FTFishTankCalendarViewController.m in Sources */,
+				04617A971D47096F0061E526 /* FTSearchViewController.m in Sources */,
+				04617A981D47096F0061E526 /* FTFishDataViewController.m in Sources */,
+				6A18D9691D35E5B9007DDA31 /* main.m in Sources */,
+				F30672601D37854C00A76924 /* FTRegisterViewController.m in Sources */,
+				04617A681D46FE8A0061E526 /* FTMainViewController.m in Sources */,
+				04617A671D46FE8A0061E526 /* FTBaseViewController.m in Sources */,
+				6ADADBE31D372404001B25FC /* FTFirstViewController.m in Sources */,
+				04617A5F1D46FE520061E526 /* WaterQualitySet.m in Sources */,
+				F32D0E531D38D0470020E35A /* FTFindPasswordViewController.m in Sources */,
+				F30A3E241D40FB010050B51E /* AFURLRequestSerialization.m in Sources */,
+				04617A741D4703460061E526 /* LimitInput.m in Sources */,
+				04617A6E1D4703030061E526 /* FTUserViewController.m in Sources */,
+				F30A3E251D40FB010050B51E /* AFURLResponseSerialization.m in Sources */,
+				04617A961D47096F0061E526 /* ChineseSorting.m in Sources */,
+				F3A6487B1D3CBA0C00F20707 /* FTQRCodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A18D9791D35E5B9007DDA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A18D9821D35E5B9007DDA31 /* FishTankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A18D9841D35E5B9007DDA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A18D98D1D35E5B9007DDA31 /* FishTankUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A18D97F1D35E5B9007DDA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A18D9631D35E5B9007DDA31 /* FishTank */;
+			targetProxy = 6A18D97E1D35E5B9007DDA31 /* PBXContainerItemProxy */;
+		};
+		6A18D98A1D35E5B9007DDA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A18D9631D35E5B9007DDA31 /* FishTank */;
+			targetProxy = 6A18D9891D35E5B9007DDA31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A18D9701D35E5B9007DDA31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A18D9711D35E5B9007DDA31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A18D9751D35E5B9007DDA31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A18D9761D35E5B9007DDA31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A18D98F1D35E5B9007DDA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A18D9901D35E5B9007DDA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A18D9921D35E5B9007DDA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FishTank/PrefixHeader.pch";
+				INFOPLIST_FILE = FishTank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/usr/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjufe.FishTank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A18D9931D35E5B9007DDA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FishTank/PrefixHeader.pch";
+				INFOPLIST_FILE = FishTank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/usr/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjufe.FishTank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A18D9951D35E5B9007DDA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FishTankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjufe.FishTankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishTank.app/FishTank";
+			};
+			name = Debug;
+		};
+		6A18D9961D35E5B9007DDA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FishTankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjufe.FishTankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishTank.app/FishTank";
+			};
+			name = Release;
+		};
+		6A18D9981D35E5B9007DDA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FishTankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjufe.FishTankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FishTank;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6A18D9991D35E5B9007DDA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FishTankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjufe.FishTankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FishTank;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A18D95F1D35E5B9007DDA31 /* Build configuration list for PBXProject "FishTank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A18D98F1D35E5B9007DDA31 /* Debug */,
+				6A18D9901D35E5B9007DDA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A18D9911D35E5B9007DDA31 /* Build configuration list for PBXNativeTarget "FishTank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A18D9921D35E5B9007DDA31 /* Debug */,
+				6A18D9931D35E5B9007DDA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A18D9941D35E5B9007DDA31 /* Build configuration list for PBXNativeTarget "FishTankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A18D9951D35E5B9007DDA31 /* Debug */,
+				6A18D9961D35E5B9007DDA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A18D9971D35E5B9007DDA31 /* Build configuration list for PBXNativeTarget "FishTankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A18D9981D35E5B9007DDA31 /* Debug */,
+				6A18D9991D35E5B9007DDA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A18D95C1D35E5B9007DDA31 /* Project object */;
+}

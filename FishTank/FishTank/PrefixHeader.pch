@@ -1,0 +1,68 @@
+//
+//  PrefixHeader.pch
+//  FishTank
+//
+//  Created by Student07 on 16/7/22.
+//  Copyright © 2016年 pikaqiu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//屏幕宽高
+#define UIScreenWidth     [UIScreen mainScreen].bounds.size.width
+#define UIScreenHeight    [UIScreen mainScreen].bounds.size.height
+#define Xwidth [UIScreen mainScreen].bounds.size.width*0.1
+#define Yheight [UIScreen mainScreen].bounds.size.height*0.25
+
+//颜色
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//UI
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define UIColorFromRGBA(rgbValue, alphaValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0  blue:((float)(rgbValue & 0xFF))/255.0 alpha:alphaValue]
+
+//字体
+#define FONT_21 IS_IPHONE_6P ? [UIFont systemFontOfSize:50] : IS_IPHONE_6 ? [UIFont systemFontOfSize:48] : [UIFont systemFontOfSize:46]
+#define FONT_20 IS_IPHONE_6P ? [UIFont systemFontOfSize:23] : IS_IPHONE_6 ? [UIFont systemFontOfSize:21] : [UIFont systemFontOfSize:20]
+#define FONT_19 IS_IPHONE_6P ? [UIFont systemFontOfSize:22] : IS_IPHONE_6 ? [UIFont systemFontOfSize:20] : [UIFont systemFontOfSize:19]
+#define FONT_18 IS_IPHONE_6P ? [UIFont systemFontOfSize:21] : IS_IPHONE_6 ? [UIFont systemFontOfSize:19] : [UIFont systemFontOfSize:18]
+#define FONT_17 IS_IPHONE_6P ? [UIFont systemFontOfSize:20] : IS_IPHONE_6 ? [UIFont systemFontOfSize:18] : [UIFont systemFontOfSize:17]
+#define FONT_16 IS_IPHONE_6P ? [UIFont systemFontOfSize:19] : IS_IPHONE_6 ? [UIFont systemFontOfSize:17] : [UIFont systemFontOfSize:16]
+#define FONT_15 IS_IPHONE_6P ? [UIFont systemFontOfSize:18] : IS_IPHONE_6 ? [UIFont systemFontOfSize:16] : [UIFont systemFontOfSize:15]
+#define FONT_14 IS_IPHONE_6P ? [UIFont systemFontOfSize:17] : IS_IPHONE_6 ? [UIFont systemFontOfSize:15] : [UIFont systemFontOfSize:14]
+#define FONT_13 IS_IPHONE_6P ? [UIFont systemFontOfSize:16] : IS_IPHONE_6 ? [UIFont systemFontOfSize:14] : [UIFont systemFontOfSize:13]
+#define FONT_12 IS_IPHONE_6P ? [UIFont systemFontOfSize:15] : IS_IPHONE_6 ? [UIFont systemFontOfSize:13] : [UIFont systemFontOfSize:12]
+#define FONT_11 IS_IPHONE_6P ? [UIFont systemFontOfSize:14] : IS_IPHONE_6 ? [UIFont systemFontOfSize:12] : [UIFont systemFontOfSize:11]
+#define FONT_10 IS_IPHONE_6P ? [UIFont systemFontOfSize:13] : IS_IPHONE_6 ? [UIFont systemFontOfSize:11] : [UIFont systemFontOfSize:10]
+//加粗字体
+#define FONT_BOLD_20 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:23] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:21] : [UIFont boldSystemFontOfSize:20]
+#define FONT_BOLD_19 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:22] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:20] : [UIFont boldSystemFontOfSize:19]
+#define FONT_BOLD_18 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:21] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:19] : [UIFont boldSystemFontOfSize:18]
+#define FONT_BOLD_17 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:20] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:18] : [UIFont boldSystemFontOfSize:17]
+#define FONT_BOLD_16 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:19] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:17] : [UIFont boldSystemFontOfSize:16]
+#define FONT_BOLD_15 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:18] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:16] : [UIFont boldSystemFontOfSize:15]
+#define FONT_BOLD_14 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:17] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:15] : [UIFont boldSystemFontOfSize:14]
+#define FONT_BOLD_13 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:16] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:14] : [UIFont boldSystemFontOfSize:13]
+#define FONT_BOLD_12 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:15] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:13] : [UIFont boldSystemFontOfSize:12]
+#define FONT_BOLD_11 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:14] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:12] : [UIFont boldSystemFontOfSize:11]
+#define FONT_BOLD_10 IS_IPHONE_6P ? [UIFont boldSystemFontOfSize:13] : IS_IPHONE_6 ? [UIFont boldSystemFontOfSize:11] : [UIFont boldSystemFontOfSize:10]
+//设备配置声明
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+
+
+#endif /* PrefixHeader_pch */
