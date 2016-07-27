@@ -9,5 +9,5 @@
 #import "FTBaseViewController.h"
 
 @interface FTFirstViewController : FTBaseViewController
-
+-(void)updateFirstLogin:(BOOL)firstLogin;
 @end

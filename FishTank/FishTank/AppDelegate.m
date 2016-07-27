@@ -30,7 +30,6 @@
     [[UINavigationBar appearance] setBarTintColor:UIColorFromRGBA(0xede9e9, 255)];
     self.window.backgroundColor = UIColorFromRGBA(0xede9e9, 255);
     self.window = [[UIWindow alloc]initWithFrame:self.window.bounds];
-    //self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     self.isLogin = NO;
     if (self.isLogin) {

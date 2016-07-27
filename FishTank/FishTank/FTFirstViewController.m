@@ -12,8 +12,6 @@
 #import "FTFindPasswordViewController.h"
 //导入AFNetWorking框架
 #import "AFNetworking.h"
-//二维码
-#import "FTQRCodeViewController.h"
 //导入本文框振动
 #import "AFViewShaker.h"
 //导入格式验证,这个textField的是重新定义的，直接用UITextField 创建实例调用相应方法即可
@@ -41,7 +39,8 @@
 @property(nonatomic,strong) UIButton *forgetPasswordBtn;
 @property(nonatomic,strong) UIButton *registerBtn;
 @property(nonatomic,strong) UIButton *loginBtn;
-
+//设置属性，判断用户登录状态
+@property(nonatomic,assign) BOOL firstLogin;
 //创建字符串 接收来自数据库的数据
 @property(nonatomic,strong) NSString *userStr;
 @property(nonatomic,strong) NSString *passwordStr;
@@ -76,6 +75,9 @@
     
     [self addLine];
     
+}
+-(void)updateFirstLogin:(BOOL)firstLogin{
+    self.firstLogin = firstLogin;
 }
 #pragma  mark - 画分割线
 -(void)addLine{
@@ -233,10 +235,10 @@
 #pragma mark - loginBtn 响应方法
 -(void)loginBtnClick{
     //调用验证方法
-    //[self checkUser];
+    [self checkUser];
     //用户名和手机验证成功后，跳转主页
-    FTMainViewController *mainVC = [[FTMainViewController alloc]init];
-    [self.navigationController pushViewController:mainVC animated:YES];
+    //FTMainViewController *mainVC = [[FTMainViewController alloc]init];
+    //[self.navigationController pushViewController:mainVC animated:YES];
 }
 #pragma mark － registerBtn 响应方法
 -(void)registerBtnClick{
@@ -274,6 +276,8 @@
         if(![str isEqualToString:@"Failure"]){
             //用户名和手机验证成功后，跳转主页
             FTMainViewController *mainVC = [[FTMainViewController alloc]init];
+            //属性传值，确定登录状态
+            mainVC.firstLoad = self.firstLogin;
             [self.navigationController pushViewController:mainVC animated:YES];
         }else{
             [self alertMsg:@"手机号或密码错误"];

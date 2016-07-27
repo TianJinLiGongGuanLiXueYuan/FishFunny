@@ -25,7 +25,7 @@
 
 @property (nonatomic , strong)FTwaterQualityViewController *ftShwo;
 
-@property (assign, nonatomic) BOOL firstLoad;
+
 
 @end
 
@@ -42,7 +42,6 @@
     _ftShwo = [[FTwaterQualityViewController alloc]init];
     _waterQuality = [[WaterQualitySet alloc]init];
     
-    _firstLoad = NO;
 //隐藏表视图
     self.mainTableView = [[UITableView alloc]initWithFrame:self.view.bounds];
     self.mainTableView.backgroundColor = [UIColor clearColor];

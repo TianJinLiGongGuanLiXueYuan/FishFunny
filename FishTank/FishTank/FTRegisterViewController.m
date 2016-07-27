@@ -40,6 +40,9 @@
 @property(nonatomic,strong) UITextField *passwordTF;
 @property(nonatomic,strong) UITextField *confirmPasswordTF;
 
+//设置属性，判断用户登录状态
+@property(nonatomic,assign) BOOL firstLogin;
+
 @property(nonatomic,strong) UIButton *registerBtn;
 @end
 
@@ -47,6 +50,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //用户注册，说明是第一次登录
+    self.firstLogin = YES;
     //加载页面控件
     [self loadCotrol];
     
@@ -380,7 +385,9 @@
         if(![[dic objectForKey:@"state"] isEqualToString:@"Failure"]){
             //跳转到注册页
             FTFirstViewController *firVC = [[FTFirstViewController alloc]init];
-            [self.navigationController pushViewController:firVC animated:YES];
+            [firVC updateFirstLogin:self.firstLogin];
+            [self.navigationController presentViewController:firVC animated:YES completion:^{
+            }];
         }else{
             [self alertMsg:@"注册失败！"];
         }

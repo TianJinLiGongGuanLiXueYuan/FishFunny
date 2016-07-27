@@ -9,6 +9,5 @@
 #import "FTBaseViewController.h"
 
 @interface FTMainViewController : FTBaseViewController
-
-
+@property (assign, nonatomic) BOOL firstLoad;
 @end

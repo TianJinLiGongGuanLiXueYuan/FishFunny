@@ -43,16 +43,13 @@
 		F30A3E261D40FB010050B51E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3E201D40FB010050B51E /* AFURLSessionManager.m */; };
 		F32D0E531D38D0470020E35A /* FTFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32D0E521D38D0470020E35A /* FTFindPasswordViewController.m */; };
 		F3A648771D3CB8EA00F20707 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A648761D3CB8EA00F20707 /* AVFoundation.framework */; };
-		F3A6487B1D3CBA0C00F20707 /* FTQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A6487A1D3CBA0C00F20707 /* FTQRCodeViewController.m */; };
 		F3C778881D3E222F00877D37 /* UITextField+Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C778871D3E222F00877D37 /* UITextField+Validator.m */; };
 		F3C7788B1D3E225100877D37 /* AFViewShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C7788A1D3E225100877D37 /* AFViewShaker.m */; };
+		F3EB5B321D4899BA0048C45E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EB5B311D4899BA0048C45E /* libz.tbd */; };
+		F3EB5B341D4899CA0048C45E /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EB5B331D4899CA0048C45E /* libstdc++.tbd */; };
+		F3EB5B361D4899DB0048C45E /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EB5B351D4899DB0048C45E /* libicucore.tbd */; };
 		F3FA54F01D3A2AB50081315C /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54EE1D3A2AB50081315C /* MOBFoundation.framework */; };
 		F3FA54F11D3A2AB50081315C /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54EF1D3A2AB50081315C /* SMS_SDK.framework */; };
-		F3FA54F31D3A2B350081315C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54F21D3A2B350081315C /* MessageUI.framework */; };
-		F3FA54F51D3A2B4F0081315C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54F41D3A2B4F0081315C /* JavaScriptCore.framework */; };
-		F3FA54F71D3A2B920081315C /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54F61D3A2B920081315C /* libstdc++.tbd */; };
-		F3FA54F91D3A2BA40081315C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54F81D3A2BA40081315C /* libz.tbd */; };
-		F3FA54FB1D3A2BB30081315C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA54FA1D3A2BB30081315C /* libicucore.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,20 +142,16 @@
 		F32D0E511D38D0470020E35A /* FTFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFindPasswordViewController.h; sourceTree = "<group>"; };
 		F32D0E521D38D0470020E35A /* FTFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFindPasswordViewController.m; sourceTree = "<group>"; };
 		F3A648761D3CB8EA00F20707 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F3A648791D3CBA0C00F20707 /* FTQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTQRCodeViewController.h; sourceTree = "<group>"; };
-		F3A6487A1D3CBA0C00F20707 /* FTQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTQRCodeViewController.m; sourceTree = "<group>"; };
 		F3C778861D3E222F00877D37 /* UITextField+Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Validator.h"; sourceTree = "<group>"; };
 		F3C778871D3E222F00877D37 /* UITextField+Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Validator.m"; sourceTree = "<group>"; };
 		F3C778891D3E225100877D37 /* AFViewShaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewShaker.h; sourceTree = "<group>"; };
 		F3C7788A1D3E225100877D37 /* AFViewShaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewShaker.m; sourceTree = "<group>"; };
 		F3CF589E1D41F02400CD38B0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F3EB5B311D4899BA0048C45E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F3EB5B331D4899CA0048C45E /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F3EB5B351D4899DB0048C45E /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		F3FA54EE1D3A2AB50081315C /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
 		F3FA54EF1D3A2AB50081315C /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
-		F3FA54F21D3A2B350081315C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		F3FA54F41D3A2B4F0081315C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F3FA54F61D3A2B920081315C /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		F3FA54F81D3A2BA40081315C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		F3FA54FA1D3A2BB30081315C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,12 +159,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EB5B361D4899DB0048C45E /* libicucore.tbd in Frameworks */,
+				F3EB5B341D4899CA0048C45E /* libstdc++.tbd in Frameworks */,
+				F3EB5B321D4899BA0048C45E /* libz.tbd in Frameworks */,
 				F3A648771D3CB8EA00F20707 /* AVFoundation.framework in Frameworks */,
-				F3FA54FB1D3A2BB30081315C /* libicucore.tbd in Frameworks */,
-				F3FA54F91D3A2BA40081315C /* libz.tbd in Frameworks */,
-				F3FA54F71D3A2B920081315C /* libstdc++.tbd in Frameworks */,
-				F3FA54F51D3A2B4F0081315C /* JavaScriptCore.framework in Frameworks */,
-				F3FA54F31D3A2B350081315C /* MessageUI.framework in Frameworks */,
 				F3FA54F01D3A2AB50081315C /* MOBFoundation.framework in Frameworks */,
 				F3FA54F11D3A2AB50081315C /* SMS_SDK.framework in Frameworks */,
 			);
@@ -251,12 +242,10 @@
 		6A18D95B1D35E5B9007DDA31 = {
 			isa = PBXGroup;
 			children = (
-				F3FA54FA1D3A2BB30081315C /* libicucore.tbd */,
-				F3FA54F81D3A2BA40081315C /* libz.tbd */,
-				F3FA54F61D3A2B920081315C /* libstdc++.tbd */,
+				F3EB5B351D4899DB0048C45E /* libicucore.tbd */,
+				F3EB5B331D4899CA0048C45E /* libstdc++.tbd */,
+				F3EB5B311D4899BA0048C45E /* libz.tbd */,
 				F3A648761D3CB8EA00F20707 /* AVFoundation.framework */,
-				F3FA54F41D3A2B4F0081315C /* JavaScriptCore.framework */,
-				F3FA54F21D3A2B350081315C /* MessageUI.framework */,
 				F30A3E131D40FB010050B51E /* AFNetworking */,
 				F3FA54ED1D3A2AB50081315C /* SMS_SDK */,
 				6A18D9661D35E5B9007DDA31 /* FishTank */,
@@ -446,8 +435,6 @@
 			children = (
 				F306725E1D37854C00A76924 /* FTRegisterViewController.h */,
 				F306725F1D37854C00A76924 /* FTRegisterViewController.m */,
-				F3A648791D3CBA0C00F20707 /* FTQRCodeViewController.h */,
-				F3A6487A1D3CBA0C00F20707 /* FTQRCodeViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -681,7 +668,6 @@
 				04617A6E1D4703030061E526 /* FTUserViewController.m in Sources */,
 				F30A3E251D40FB010050B51E /* AFURLResponseSerialization.m in Sources */,
 				04617A961D47096F0061E526 /* ChineseSorting.m in Sources */,
-				F3A6487B1D3CBA0C00F20707 /* FTQRCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

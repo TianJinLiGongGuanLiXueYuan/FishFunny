@@ -41,6 +41,7 @@
 @property(nonatomic,strong) UITextField *confirmPasswordTF;
 
 @property(nonatomic,strong) UIButton *loginBtn;
+@property(nonatomic,assign) BOOL firstLogin;
 @end
 
 @implementation FTFindPasswordViewController
@@ -50,7 +51,7 @@
     //加载页面控件
     [self loadCotrol];
     
-    
+    self.firstLogin = NO;
     
 }
 #pragma  mark - loadControl
@@ -405,7 +406,9 @@
     [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDestructive handler:^(UIAlertAction *actin){
         //点击确定，跳转到主页，是老用户
         FTMainViewController *mainVC = [[FTMainViewController alloc]init];
-        [self.navigationController pushViewController:mainVC animated:YES];
+        mainVC.firstLoad = self.firstLogin;
+        [self.navigationController presentViewController:mainVC animated:YES completion:^{
+        }];
 
     }]];
     [alert addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action){
