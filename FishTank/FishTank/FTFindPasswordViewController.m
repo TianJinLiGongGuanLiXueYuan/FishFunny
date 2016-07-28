@@ -117,8 +117,9 @@
 }
 -(void)backToLoginIVClick{
     //跳转到登录界面
-    FTFirstViewController *firVC = [[FTFirstViewController alloc]init];
-    [self.navigationController pushViewController:firVC animated:YES];
+//    FTFirstViewController *firVC = [[FTFirstViewController alloc]init];
+//    [self.navigationController pushViewController:firVC animated:YES];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 #pragma mark - BGImageView getter
 //设置背景图
@@ -146,7 +147,7 @@
         _phoneNumberTF.placeholder = @"手机号";
         //把键盘设置为数字键盘
         _phoneNumberTF.keyboardType = UIKeyboardTypeNumberPad;
-        [_phoneNumberTF setFont:FONT_18];
+        [_phoneNumberTF setFont:FONT_17];
         _phoneNumberTF.clearButtonMode = UITextFieldViewModeAlways;
         //给手机号码输入框，设置验证方法
         [_phoneNumberTF addTarget:self action:@selector(numberTFChanged:) forControlEvents:UIControlEventEditingChanged];
@@ -160,7 +161,7 @@
         //把输入键盘 设置为 数字键盘
         _verificationCodeTF.keyboardType = UIKeyboardTypeNumberPad;
         _verificationCodeTF.clearButtonMode = UITextFieldViewModeAlways;
-        [_verificationCodeTF setFont:FONT_18];
+        [_verificationCodeTF setFont:FONT_17];
         [_verificationCodeTF addTarget:self action:@selector(numberTFChanged:) forControlEvents:UIControlEventEditingDidEnd];
     }
     return _verificationCodeTF;
@@ -172,7 +173,7 @@
         _passwordTF.placeholder = @"输入密码";
         _passwordTF.secureTextEntry = YES;
         _passwordTF.clearButtonMode = UITextFieldViewModeAlways;
-        [_passwordTF setFont:FONT_18];
+        [_passwordTF setFont:FONT_17];
         //给密码框添加 长度限制方法
         [_passwordTF addTarget:self action:@selector(passwordTFChanged:) forControlEvents:UIControlEventEditingDidEnd];
     }
@@ -183,7 +184,7 @@
     if (!_confirmPasswordTF) {
         _confirmPasswordTF = [[UITextField alloc]initWithFrame:CGRectMake(_passwordTF.frame.origin.x, _passwordTF.frame.origin.y+MOVEDOWN_LENGTH, TEXTFIELD_WIDTH, TEXTFIELD_HEIGHT)];
         _confirmPasswordTF.placeholder =@"确认密码";
-        [_confirmPasswordTF setFont:FONT_18];
+        [_confirmPasswordTF setFont:FONT_17];
         _confirmPasswordTF.secureTextEntry = YES;
         _confirmPasswordTF.clearButtonMode = UITextFieldViewModeAlways;
         //给确认密码框添加，检验两次输入的密码是否一致的 方法
@@ -278,9 +279,9 @@
 -(UIButton *)sendCodeBtn{
     if (!_sendCodeBtn) {
         _sendCodeBtn =[[UIButton alloc]init];
-        _sendCodeBtn.frame = CGRectMake(UIScreenWidth*0.75, UIScreenHeight*0.165, UIScreenWidth*0.25, TEXTFIELD_HEIGHT);
+        _sendCodeBtn.frame = CGRectMake(UIScreenWidth*0.7, UIScreenHeight*0.17, UIScreenWidth*0.25, TEXTFIELD_HEIGHT);
         _sendCodeBtn.userInteractionEnabled = NO;
-        _sendCodeBtn.titleLabel.font = FONT_17;
+        _sendCodeBtn.titleLabel.font = FONT_12;
         [_sendCodeBtn setTitle:@"发送验证码" forState:UIControlStateNormal];
         [_sendCodeBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_sendCodeBtn addTarget:self action:@selector(sendCodeBtnClick) forControlEvents:UIControlEventTouchUpInside];
@@ -317,7 +318,7 @@
                 //设置界面的按钮显示 根据自己需求设置
                 [self.sendCodeBtn setTitle:@"重新发送" forState:UIControlStateNormal];
                 self.sendCodeBtn.userInteractionEnabled = YES;
-                self.sendCodeBtn.backgroundColor = [UIColor redColor];
+                
                 
             });
         }else{
@@ -328,10 +329,10 @@
                 //NSLog(@"____%@",strTime);
                 [UIView beginAnimations:nil context:nil];
                 [UIView setAnimationDuration:1];
-                [self.sendCodeBtn setTitle:[NSString stringWithFormat:@"%@秒后重新发送",strTime] forState:UIControlStateNormal];
+                [self.sendCodeBtn setTitle:[NSString stringWithFormat:@"%@秒后再发送",strTime] forState:UIControlStateNormal];
                 [UIView commitAnimations];
                 self.sendCodeBtn.userInteractionEnabled = NO;
-                self.sendCodeBtn.backgroundColor = [UIColor grayColor];
+    
             });
             timeout--;
             
@@ -409,7 +410,6 @@
         mainVC.firstLoad = self.firstLogin;
         [self.navigationController presentViewController:mainVC animated:YES completion:^{
         }];
-
     }]];
     [alert addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action){
         

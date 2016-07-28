@@ -79,7 +79,6 @@
     _ftShwo.phValueShow.textColor = [UIColor grayColor];
     _ftShwo.oxcontentShow.text = [NSString stringWithFormat:@"%@",_waterQuality.oxContentJudge];
     _ftShwo.oxcontentShow.textColor = [UIColor grayColor];
-
     //固定显示frame®
     
     [self.view addSubview:_ftShwo.ftInfo];
@@ -196,7 +195,6 @@
     _ftShwo.temperatureRealTimeTextView.text = [NSString stringWithFormat:@"%d℃",_waterQuality.temperatureRealTime];
     _ftShwo.phValueTextRealTimeView.text = [NSString stringWithFormat:@"%.1f",_waterQuality.phValueRealTime];
     _ftShwo.oxcontentTextRealTimeView.text = [NSString stringWithFormat:@"%dmg/L",_waterQuality.oxContentRealTime];
-    
     [_mainTableView reloadData];
     
     [_refreshControl endRefreshing];

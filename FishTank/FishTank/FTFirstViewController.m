@@ -86,7 +86,7 @@
     line1.backgroundColor = [UIColor blackColor];
     [self.backgroundIV addSubview:line1];
     //画分割线2
-    UIView *line2 = [[UIView alloc]initWithFrame:CGRectMake(UIScreenWidth*0.278, UIScreenHeight*0.215, 1, LINE_HEIGHT)];
+    UIView *line2 = [[UIView alloc]initWithFrame:CGRectMake(UIScreenWidth*0.278, UIScreenHeight*0.213, 1, LINE_HEIGHT)];
     line2.backgroundColor = [UIColor blackColor];
     [self.backgroundIV addSubview:line2];
     //画分割线3
@@ -94,7 +94,7 @@
     line3.backgroundColor = [UIColor blackColor];
     [self.backgroundIV addSubview:line3];
     //画分割线4
-    UIView *line4 = [[UIView alloc]initWithFrame:CGRectMake(UIScreenWidth*0.278, UIScreenHeight*0.295, 1, LINE_HEIGHT)];
+    UIView *line4 = [[UIView alloc]initWithFrame:CGRectMake(UIScreenWidth*0.278, UIScreenHeight*0.293, 1, LINE_HEIGHT)];
     line4.backgroundColor = [UIColor blackColor];
     [self.backgroundIV addSubview:line4];
 
@@ -212,7 +212,7 @@
         [_registerBtn setTitle:@"注册" forState:UIControlStateNormal];
         //文本左对齐
         _registerBtn.titleLabel.textAlignment = NSTextAlignmentLeft;
-        _registerBtn.titleLabel.font = FONT_17;
+        _registerBtn.titleLabel.font = FONT_15;
         [_registerBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         
         [_registerBtn addTarget:self action:@selector(registerBtnClick) forControlEvents:UIControlEventTouchUpInside];
@@ -225,7 +225,7 @@
         _forgetPasswordBtn = [[UIButton alloc]initWithFrame:CGRectMake(UIScreenWidth*0.61, UIScreenHeight*0.38, UIScreenWidth*0.25, UIScreenHeight*0.025)];
         [_forgetPasswordBtn setTitle:@"忘记密码？" forState:UIControlStateNormal];
         _forgetPasswordBtn.titleLabel.textAlignment = NSTextAlignmentLeft;
-        _forgetPasswordBtn.titleLabel.font = FONT_17;
+        _forgetPasswordBtn.titleLabel.font = FONT_15;
         [_forgetPasswordBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_forgetPasswordBtn addTarget:self action:@selector(forgetPasswordBtnClick) forControlEvents:UIControlEventTouchUpInside];
     }
